@@ -1,0 +1,29 @@
+{
+  "name": "svelte-jsondata",
+  "version": "1.0.1",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/rajnikanth18/svelte-jsondata.git"
+	},
+  "author": "Rajanikanth <rajnikanth18@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-commonjs": "^18.1.0",
+		"@rollup/plugin-json": "^6.0.0",
+		"rollup": "^2.79.1",
+		"rollup-plugin-css-only": "^3.1.0",
+		"rollup-plugin-svelte": "^7.1.6",
+		"svelte": "^3.37.0"	
+  }
+}
